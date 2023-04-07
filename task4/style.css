@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: rgb(6, 134, 157);
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.svg-card{
+    width: 350px;
+    background-color: white;
+    max-width: 100%;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.svg-card2{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.image{
+    display: flex;
+    margin-left: 50%;
+    transform: translate(-50px,-50px);
+    border-radius: 50px;
+    border: 5px solid white;
+    width: 100px;
+    margin-bottom: 0;
+}
+
+.victor-crest{
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 750;
+    margin-top: -30px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+}
+
+.number{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-size: 17.5px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: gray;
+    margin-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 12px;
+}
+
+
+.london{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #6B7082;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 17.36px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-weight: 300;
+}
+
+.rectangle{
+    display: flex;
+    margin-top: 0;
+    width: 350px;
+    height: 1px;
+    background-color: #E8E9EC;
+    border: 1px solid #E8E9EC;
+    margin-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22.32px;
+    color: #2E3349;
+    margin-bottom: 8px;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    columns: #6B7082;
+    font-weight: 400;
+}
+
+
+.span1{
+    margin-left: -14px;
+}
+
+.span2{
+    margin-left: -14px;
+}
+
+.span3{
+    margin-right: -4px;
+}
+
+
+@media screen and (max-width: 600px){
+   
+}
